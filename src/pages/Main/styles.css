@@ -1,0 +1,146 @@
+div.wrapper-content {
+    padding-top: 90px;
+}
+
+div.wrapper-content .timeline {
+    flex: 1;
+    background: #fff;
+    margin: 10px 10px 0;
+}
+
+div.wrapper-content .timeline h2 {
+    color: #3498DB;
+    padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav {
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+}
+
+
+div.wrapper-content .timeline nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3498DB;
+    margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+    margin: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+    color: #1F2226;
+}
+
+/* Estilizações da timeline - Tweet */
+div.wrapper-content .timeline ul.social-action li {
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+}
+
+div.wrapper-content .timeline ul.social-action li > img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    
+}
+
+div.wrapper-content .timeline ul.social-action .info {
+    margin-left: 3px;
+}
+
+div.wrapper-content .timeline ul.social-action .info strong {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1F2226;
+}
+
+div.wrapper-content .timeline ul.social-action .info strong span {
+    font-size: 16px;
+    font-weight: normal;
+    color: #3a3a3a;
+}
+
+div.wrapper-content .timeline ul.social-action .info p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #1F2226;
+    margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.social-action .info span.creator {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+div.wrapper-content .timeline ul.social-action .info .actions {
+    width: 80vh;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+div.wrapper-content .timeline ul.social-action .info .actions a, span {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: normal;
+    color: #3a3a3a;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+div.wrapper-content .timeline ul.social-action .info .actions a:first-child {
+    margin-left: 0;
+}
+
+div.wrapper-content .timeline ul.social-action .info .actions a img {
+    margin-right: 5px;
+}
+
+/* Participate Button */
+.btn-unpart {
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    color: #F5608E;
+    background: #fff;
+    border: 0;
+}
+
+/* Unparticipate Button */
+.btn-part {
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    color: #3498DB;
+    background: #fff;
+    border: 0;
+}
+
+.margin-lr {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.margin-left {
+    margin-left: 5px;
+    margin-right: 1px;
+}
+
+/* Persn Image */
+.personImage {
+    border-radius: 50%;
+}

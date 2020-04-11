@@ -1,0 +1,105 @@
+div.wrapper-content aside.profile {
+    width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+    width: 100px;
+    height: 100px;;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+div.wrapper-content aside.profile h1 {
+    margin-top: 10px;
+    font-size: 21px;
+    color: #414141;
+    font-weight: bold;
+}
+
+div.wrapper-content aside.profile button {
+    margin-top: 10px;
+    margin-right: 10px;
+    background: transparent;
+    border: 0;
+}
+
+div.wrapper-content aside.profile span {
+    font-size: 14px;
+    color: #53626c;
+}
+
+div.wrapper-content aside.profile p {
+    font-size: 14px;
+    color: #1F2226;
+    margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+div.wrapper-content aside.profile ul.info li {
+    color: #657786;
+    font-size: 14px;
+
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+div.wrapper-content aside.profile ul.info li:first-child {
+    margin-top: 0;
+}
+
+div.wrapper-content aside.profile ul.info li img {
+    margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widget {
+    margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widget strong {
+    font-weight: normal;
+    font-size: 14px;
+    color: #3399FF;
+
+    display: flex;
+    align-items: center;
+}
+
+div.wrapper-content aside.profile .widget strong img {
+    margin-right: 5px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+div.wrapper-content aside.profile .followers li {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #d0d5d9;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .images ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+div.wrapper-content aside.profile .images li {
+    width: 80px;
+    height: 80px;
+    background: #d0d5d9;
+    border-radius: 8px;
+    flex: 1 0 auto;
+    margin: 0 5px 5px 0;
+}
